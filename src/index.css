@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.rotate-logo-sm {
+  rotate: -4.46deg;
+}
+
+.rotate-logo-lg {
+  rotate: -6.96deg;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: '300';
+    font-display: swap;
+    src: url('./assets/fonts/Roboto-Light.ttf')
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: '400';
+    font-display: swap;
+    src: url('./assets/fonts/Roboto-Regular.ttf')
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: '500';
+    font-display: swap;
+    src: url('./assets/fonts/Roboto-Medium.ttf')
+  }
+
+  @font-face {
+    font-family: "ArchitectsDaughter";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('./assets/fonts/ArchitectsDaughter-Regular.ttf')
+  }
+}
